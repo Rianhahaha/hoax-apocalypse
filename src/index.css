@@ -23,3 +23,7 @@
   paint-order: stroke fill;
 
 }
+
+* {
+  @apply scroll-smooth;
+}
