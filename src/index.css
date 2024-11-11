@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bagus";
+  src: url("/fonts/YangBagus.ttf");
+}
+
+.hovered {
+    @apply transition-all duration-200 ease-in-out;
+}
+
+.absolute-center {
+    @apply absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%];
+}
+
+.text-shadow {
+  -webkit-text-stroke-width: 25px;
+  -webkit-text-stroke-color: #222A41;
+}
+.text-shadow > p{
+  paint-order: stroke fill;
+
+}
