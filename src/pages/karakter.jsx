@@ -16,11 +16,11 @@ function Karakter() {
 
         </div>
         <div className="min-h-dvh pt-[3rem] px-3 md:px-[12rem] ">
-          <div className="-rotate-6 text-[5rem] text-white leading-snug text-shadow">
+          <div className="-rotate-6 text-[3rem] md:text-[5rem] text-white leading-snug text-shadow">
             <p>Karakter</p>
           </div>
           <div className="mt-[10rem]">
-            <div className="flex flex-wrap gap-11 justify-center">
+            <div className="grid grid-cols-1 gap-14 justify-center">
               <KarakterCard
                 name="Yuta"
                 idle="/img/karakter/mc-idle.gif"

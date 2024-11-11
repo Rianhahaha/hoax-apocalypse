@@ -3,11 +3,13 @@ import Gap from "./gap";
 function Footer() {
   return (
     <>
+    <div className="overflow-hidden">
+
       <div className="bg-blueMain w-full min-h-dvh relative ">
         <div className="bg-blueMain hidden md:block absolute bottom-0 md:-bottom-12 w-full  overflow-hidden h-[12rem]">
           <img className="w-full" src="./img/gap.svg" alt="" />
         </div>
-        <div className="absolute top-0 md:-top-[7rem] w-full md:scale-100 scale-[250%] ">
+        <div className="absolute top-2 md:-top-[7rem] w-full md:scale-100 scale-[250%] ">
           <img className="w-full" src="./img/gap.svg" alt="" />
         </div>
         <div className="container pt-[10rem]">
@@ -20,10 +22,11 @@ function Footer() {
             </div>
           </div>
           <div className="w-full mt-[3rem] flex justify-center">
-            <img src="./img/studio.png" alt="" />
+            <img className="w-[15rem] m-auto hover:scale-90 hovered" src="./img/studio.png" alt="" />
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 }

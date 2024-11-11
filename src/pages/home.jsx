@@ -7,6 +7,7 @@ import Bg from "../components/bg";
 function Home() {
   return (
     <>
+    <div className="overflow-hidden">
       <div className="mb-[-2rem] mt-1 md:mt-[6rem] min-h-dvh relative">
         <div className="h-dvh">
           <img
@@ -26,6 +27,7 @@ function Home() {
           />
         </a>
         <Gap />
+
       </div>
       <div className="min-h-dvh relative overflow-hidden py-[7rem]">
         <div className="-rotate-3  absolute w-[calc(100%+5rem)]  h-full -top-[15rem] -left-10 z-[-100] text-gray-200">
@@ -40,6 +42,7 @@ function Home() {
         <HomeContent img="/img/home/hindari.svg" />
         <HomeContent img="/img/home/poin.svg" />
       </div>
+    </div>
     </>
   );
 }
