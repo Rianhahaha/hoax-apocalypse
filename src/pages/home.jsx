@@ -26,6 +26,16 @@ function Home() {
             alt=""
           />
         </a>
+        <a
+          className="w-full cursor-pointer" target="_blank"
+          href="https://youtu.be/fQssynKO1lY"
+        >
+          <img
+            className=" scale-50 hover:scale-[45%] hovered absolute top-[60%] -translate-x-[70%] lg:top-[70%] left-1/2 transform lg:translate-x-[50%] -translate-y-1/2 "
+            src="/img/demo.svg"
+            alt=""
+          />
+        </a>
         <Gap />
 
       </div>

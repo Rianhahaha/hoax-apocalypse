@@ -9,12 +9,12 @@ function Tentang() {
       <div className="overflow-hidden">
         <div className="pb-[2rem] pt-[6rem] min-h-dvh relative bg-blueMain text-white">
           <div className="min-h-dvh pt-[3rem] px-3 md:px-[12rem] ">
-            <div className="-rotate-6 text-[3rem] md:text-[5rem] text-center text-white leading-snug text-shadow">
+            <div className="-rotate-6 text-[3rem] lg:text-[5rem] text-center text-white leading-snug text-shadow">
               <p>
                 Tentang <br /> Hoax Apocalypse
               </p>
             </div>
-            <div className="mt-[5rem] text-sm md:text-2xl text-center">
+            <div className="mt-[5rem] text-sm lg:text-2xl text-center">
               Selamat datang di{" "}
               <span className="text-yellowMain"> "Hoax Apocalypse," </span>{" "}
               sebuah game edukatif yang mengajak Anda untuk berpetualang di

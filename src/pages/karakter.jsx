@@ -20,7 +20,7 @@ function Karakter() {
             <p>Karakter</p>
           </div>
           <div className="mt-[10rem]">
-            <div className="grid grid-cols-1 gap-14 justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 justify-center">
               <KarakterCard
                 name="Yuta"
                 idle="/img/karakter/mc-idle.gif"
